@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <img src="images/cyberpunkredLogo.png" alt="cyberpunkredlogo" style="width:175px;height:87.5;" class = "center" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk Red Soundboard</title>
+</head>
+
+<body>
+
+    <button class="accordion" onclick = "accordionDropdown()">Combat</button>
+    <div class="panel">
+        <table style="width:100%"> <!--th for table header td for table data cell-->
+            <tr>
+                <th><p>Enemies Alerted</p><audio controls><source src = "audio/enemiesAlerted.mp3"></source></audio></th>
+                <th><p>Medium/Heavy Pistols</p><audio controls><source src = "audio/pistolROF2.mp3"></source></audio></th>
+                <th><p>Very Heavy Pistol</p><audio controls><source src = "audio/veryheavypistolROF1.mp3"></source></audio></th>
+                <th><p>Sniper</p><audio controls><source src = "audio/sniperFire.mp3"></source></audio></th>           
+            </tr>
+            <tr>
+                <th><p>Autofire</p><audio controls><source src = "audio/autoFire.mp3"></source></audio></th>           
+                <th><p>Airhypo</p><audio controls><source src = "audio/airhypo.mp3"></source></audio></th>
+                <th><p>Sandevistan</p><audio controls><source src = "audio/sandy.mp3"></source></audio></th>
+            </tr>
+        </table>
+    </div>
+
+    <button class="accordion" onclick = "accordionDropdown()">Vehicle</button>
+    <div class="panel">
+        <table style="width:100%"> <!--th for table header td for table data cell-->
+            <tr>
+                <th><p>Drifting</p><audio controls><source src = "audio/drifting.mp3"></source></audio></th>
+                <th><p>Revving</p><audio controls><source src = "audio/revving.mp3"></source></audio></th>
+            </tr>
+        </table>
+    </div>
+
+    <button class="accordion" onclick = "accordionDropdown()">Personel Effects</button>
+    <div class="panel">
+        <table style="width:100%"> <!--th for table header td for table data cell-->
+            <tr>
+                <th><p>Phone Call Inbound</p><audio controls><source src = "audio/phoneCallInbound.mp3"></source></audio></th>
+                <th><p>Phone Call Outbound</p><audio controls><source src = "audio/phoneCallOutbound.mp3"></source></audio></th>
+                <th><p>Incoming Text Message</p><audio controls><source src = "audio/textMessageInbound.mp3"></source></audio></th>
+                <th><p>Outgoing Text Message</p><audio controls><source src = "audio/textMessageOutbound.mp3"></source></audio></th>
+            </tr>
+            <tr>
+                <th><p>Eurodollar's Up</p><audio controls><source src = "audio/moneyUp.mp3"></source></audio></th>
+                <th><p>Opening Map</p><audio controls><source src = "audio/mapOpen.mp3"></source></audio></th>
+                <th><p>Closing Map</p><audio controls><source src = "audio/mapClose.mp3"></source></audio></th>
+            </tr>
+        </table>
+    </div>
+
+    <button class="accordion" onclick = "accordionDropdown()">World Ambience</button>
+    <div class="panel">
+        <table style="width:100%"> <!--th for table header td for table data cell-->
+            <tr>
+                <th><p>PSA</p><audio controls><source src = "audio/PSA.mp3"></source></audio></th>
+                <th><p>Ugory</p><audio controls><source src = "audio/ugory.mp3"></source></audio></th>
+
+            </tr>
+        </table>
+    </div>
+
+    <button class="accordion" onclick = "accordionDropdown()">Netrunning</button>
+    <div class="panel">
+        <table style="width:100%"> <!--th for table header td for table data cell-->
+            <tr>
+                <th><p>Breaching The Net</p><audio controls><source src = "audio/breachingTheNet.mp3"></source></audio></th>
+            </tr>
+        </table>
+    </div>
+
+
+      <script src="backend.js"></script>
+
+</body>
+</html>
